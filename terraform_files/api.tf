@@ -4,6 +4,5 @@ resource "aws_instance" "for_credentials" {
 
   tags = {
     Name = "HelloWorld"
-    owner = "aws_client"
   }
 }
